@@ -96,7 +96,6 @@ h1{
 /* star of the footer for mobile*/
 
 .footerfig, .un, .deux, .trois, .quatre{
-	/*background-color: red;*/
 	display: inline-block;
 	align-items: stretch;
 	width: 130px;
@@ -120,7 +119,7 @@ h1{
 */
 
 @media (min-width: 768px){
-
+/*star of the header*/
 header{
 	display: flex;
 	justify-content: space-between;
@@ -134,7 +133,6 @@ header{
 
 .logotitre{
 	margin-bottom: 1px;
-	/*margin-left: 13em;*/
 }
 
 .panier{
@@ -142,147 +140,102 @@ header{
 	justify-content: flex-start;
 	margin-left: 15em;
 }
+/*end of the header*/
+
+.chaussettes{
+	background-color: silver;
+
+}
+
+.rouge, /*.rose, .rose2, .rose3*/{
+	height:230px;
+	width: 20em;
+}
+
+.rougeart{
+	background-color: blue; 
+	display: inline-block;
+	align-items: stretch;
+	width: 33%;
+}
 
 
+.troiscouleursart{
+	background-color: blue;
+	display: inline-block;
+	justify-content: flex-start;
+	width: 60%;
+}
 
+.troiscouleurs{
+	height: 250px;
+	
+}
+
+.rose, .rose2, .rose3, .aubergine, .mauve{
+	width: 100%;
+}
+
+footer{
+	background-color: yellow;
 
 }
 
 
 
+/************************************************************************************************************
+********************************************Desktop*********************************************************/
 
-@media (min-width: 1280px){	
+
+@media (min-width: 1280px){
+
+
+	
+/*star of the header*/
 .panier, .hamburger
 
 	{
 	display: none;
 	}
 
-
-
 .logo
 	{
+	background-color: purple;
+	display: flex;
+	justify-content: flex-start;
+	width: 0em;
+	height: 0em;
 	margin-right: 20em;
 }
-	header{
+
+.logo2{
+	background-color: red;
+	margin-right:120px;
+}
+
+.logotitre{
+	width: 290px;
+	height: 100px;
+	margin-right: 120px;
+	
+}
+
+.logo, .connexion{
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 
 
+}
+
+.tailles{
+	display: none;
 }
 
 nav{
-	display: none;
+	display: inline-block;
+	flex-direction: column;
 }
 
-.hamburger3 ,.logotitre ,.panier {
-	display: flex;
-	justify-content: center;
-}
-
-
-.logotitre{
-	width: 150px;
-	height: 40px;
-	margin:auto;
-}
-
-.panier{
-	width: 40px;
-	height: 40px;
-}
-
-
-.hamburger{
-	height: 30px;
-	width: 30px;
-	
-}
-
-.hamburger2{
-	max-width: 100%;
-	max-height: 100%;
-	margin:auto;
-}
-.hamburger3{
-	width: 30px;
-	height: 30px;
-	margin: 0;
-}  
-
-
-
-
-@media (min-width: 768px){
-
-header{
-	display: flex;
-	justify-content: space-between;
-}
-
-.logo2{
-	width: 80%;
-	height: 30%;
-}
-
-.logotitre{
-	margin-bottom: 1px;
-	/*margin-left: 13em;*/
-}
-
-.panier{
-	display: flex;
-	justify-content: flex-start;
-	margin-left: 10em;
-}
-
-h1{
-	color:#aaaaaa;
-}
-
-
-
-}
-
-
-
-
-@media (min-width: 1280px){	
-
-header {
-	display: flex;
-	justify-content: flex-start;
-}
-
-
-.panier, .hamburger
-
-	{
-	display: none;
-	}
-
-.logo
-	{
-	display: flex;
-	justify-content: flex-start;
-	width: 400px;
-	height: 100px;
-	}
-
-.logo2{
-	width: 100%;
-	height: 100%;
-}
-
-.logotitre{
-	width: 100%;
-	height: 100%;
-	
-}
-
-.nav{
-	display: block;
-}
 
 
 
@@ -290,6 +243,6 @@ header {
 
 }
 
-
+/*end of the header*/
 
 
