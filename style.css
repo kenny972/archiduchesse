@@ -1,3 +1,5 @@
+
+/*star of the header*/
 header{
 	display: flex;
 	justify-content: center;
@@ -44,6 +46,10 @@ nav{
 	margin: 0;
 }  
 
+/*end of header*/
+
+/*ici sont regroupés les images des produits en vente*/
+
 .tailles{
 	display: block;
 
@@ -57,7 +63,10 @@ h1{
 	color: #4B4C4D;
 }
 
-
+.roseart, .rose2art, .rose3art, .mauveart, .aubergineart, .justemauveart{
+	display: inline-block;
+	justify-content: space-between;
+}
 
 .rougefig, .rosefig, .rose2fig, .rose3fig, .auberginefig, .mauvefig, .justemauvefig{
 	width: 130px;
@@ -68,7 +77,6 @@ h1{
 	max-width: 100%;
 	max-height: 100%;
 }
-
 
 
 .troiscouleursfig{
@@ -82,21 +90,34 @@ h1{
 	max-height: 100%;
 }
 
-.roseart, .rose2art, .rose3art, .mauveart, .aubergineart, .justemauveart{
+
+/*Fin des images des produits en vente*/
+
+/* star of the footer for mobile*/
+
+.footerfig, .un, .deux, .trois, .quatre{
+	/*background-color: red;*/
 	display: inline-block;
-	justify-content: space-between;
+	align-items: stretch;
+	width: 130px;
+	margin: 1em;
 }
 
-.cinq, .six
-
-	{
+.cinq, .six{
 	display: none;
 	}
 
+.un, .deux, .trois, .quatre{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*end of the footer for mobile*/
 
 
-
-
+/****************************************************************************************************
+****************************************Tablettes**************************************************
+*/
 
 @media (min-width: 768px){
 
@@ -108,6 +129,7 @@ header{
 .logo2{
 	width: 80%;
 	height: 30%;
+	margin-left: 11em;
 }
 
 .logotitre{
@@ -118,7 +140,7 @@ header{
 .panier{
 	display: flex;
 	justify-content: flex-start;
-	margin-left: 10em;
+	margin-left: 15em;
 }
 
 
