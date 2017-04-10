@@ -50,9 +50,15 @@ nav{
 
 /*ici sont regroupés les images des produits en vente*/
 
+
+
 .tailles{
 	display: block;
 
+}
+
+.tailles a:hover{
+	background-color: silver;
 }
 
 h1{
@@ -63,13 +69,19 @@ h1{
 	color: #4B4C4D;
 }
 
+.tablette{
+	display: none;
+}
+
+
+
 .roseart, .rose2art, .rose3art, .mauveart, .aubergineart, .justemauveart{
 	display: inline-block;
 	justify-content: space-between;
 }
 
 .rougefig, .rosefig, .rose2fig, .rose3fig, .auberginefig, .mauvefig, .justemauvefig{
-	width: 130px;
+	width:130px;
 	margin: 1em;
 }
 
@@ -96,11 +108,15 @@ h1{
 /* star of the footer for mobile*/
 
 .footerfig, .un, .deux, .trois, .quatre{
-	display: inline-block;
-	align-items: stretch;
-	width: 130px;
-	margin: 1em;
+	display: flex;
+	flex-wrap: wrap;
+
 }
+
+.footerfig a{
+	width: 50%;
+}
+
 
 .cinq, .six{
 	display: none;
@@ -142,12 +158,21 @@ header{
 }
 /*end of the header*/
 
-.chaussettes{
-	background-color: silver;
 
+.tablette{
+	display: block;
+}
+/****************************************************************
+***************************************************************
+****************************************************************/
+.chaussettes{
+	display: none;
 }
 
-.rouge, /*.rose, .rose2, .rose3*/{
+/*****************************************************************
+****************************************************************
+*****************************************************************/
+.rouge{
 	height:230px;
 	width: 20em;
 }
@@ -164,7 +189,8 @@ header{
 	background-color: blue;
 	display: inline-block;
 	justify-content: flex-start;
-	width: 60%;
+	/* width: 60%; */
+}
 }
 
 .troiscouleurs{
@@ -176,11 +202,11 @@ header{
 	width: 100%;
 }
 
-footer{
-	background-color: yellow;
-
+/*icones facebook et twitter*/
+.cinq, .six{
+	display: block;
 }
-
+/*fin du footer pour tablette*/
 
 
 /************************************************************************************************************
@@ -233,13 +259,21 @@ footer{
 
 nav{
 	display: inline-block;
-	flex-direction: column;
+	flex-direction: column-reverse;
+	padding-bottom: 100%;
+}
+
+
+.desktop{
+
+{
+	display: block;
 }
 
 
 
 
-
+	
 
 }
 
