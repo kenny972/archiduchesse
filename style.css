@@ -48,7 +48,8 @@ nav{
 
 /*end of header*/
 
-/*ici sont regroupés les images des produits en vente*/
+
+/*Début de la Div/ici sont regroupés les images des produits en vente*/
 
 
 
@@ -73,37 +74,48 @@ h1{
 	display: none;
 }
 
-
-
+/*les propriété concernant les articles*/
 .roseart, .rose2art, .rose3art, .mauveart, .aubergineart, .justemauveart{
 	display: inline-block;
 	justify-content: space-between;
 }
+/*fin des propriétés concernant les articles*/
 
+/*les propriété concernant les figures*/
 .rougefig, .rosefig, .rose2fig, .rose3fig, .auberginefig, .mauvefig, .justemauvefig{
 	width:130px;
 	margin: 1em;
 }
+/*fin des propriétés concernant les figures*/
 
+/*les propriétés concernant les images des chaussettes*/
 .rouge, .rose, .rose2, .rose3, .aubergine, .mauve, .justemauve{
 	max-width: 100%;
 	max-height: 100%;
 }
+/*fin des propriétés concernant les images des chaussettes*/
 
-
+/*propriété concernant une figure : 3 pieds de femmes avec des chaussettes de couleurs différentes= deuxième
+sur le mobile (en dessous) et deuxième image sur la tablette (même ligne) et deuxième image sur le desktop
+(même ligne)*/
 .troiscouleursfig{
 	
 	margin: 1em;
 }
+/*fin de la propriété des 3 pieds*/
 
+/*image 3 pieds de femmes avec des chaussettes de couleurs différentes= deuxième
+sur le mobile (en dessous) et deuxième image sur la tablette (même ligne) et deuxième image sur le desktop
+(même ligne)*/
 .troiscouleurs{
 	width:100%;
 	max-width: 100%;
 	max-height: 100%;
 }
+/*fin de l'image des 3 pieds*/
 
+/*Fin de la Div/Fin des images des produits en vente*/
 
-/*Fin des images des produits en vente*/
 
 /* star of the footer for mobile*/
 
@@ -139,6 +151,10 @@ h1{
 header{
 	display: flex;
 	justify-content: space-between;
+}
+
+h1, .tablette, .tailles{
+	margin: 1em;
 }
 
 .logo2{
@@ -218,6 +234,11 @@ header{
 
 	
 /*star of the header*/
+nav{
+	display: flex;
+	justify-content: center;
+}
+
 .panier, .hamburger
 
 	{
@@ -265,8 +286,7 @@ nav{
 
 
 .desktop{
-
-{
+	
 	display: block;
 }
 
