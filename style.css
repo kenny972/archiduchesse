@@ -237,7 +237,9 @@ h1, .tablette, .tailles{
 /*star of the header*/
 header{
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
+	height: 100px;
+	width: 100%;
 }
 
 .panier, .hamburger
@@ -245,11 +247,6 @@ header{
 	{
 	display: none;
 	}
-
-header{
-	
-	height: 15em;
-}
 
 .logo
 	{
@@ -268,22 +265,11 @@ header{
 .logotitre{
 	width: 290px;
 	height: 100px;
-	display: flex;
-
-	
+	display: flex;	
 }
 
-.logo, .connexion{
-	display: flex;
-	justify-content: space-between;
 
-
-}
-
-.tailles{
-	display: none;
-}
-
+/*ville, luxe, bouclettes, fantaisie*/
 .navnav{
 	margin: 3em;
 	display: inline-block;
@@ -298,17 +284,20 @@ header{
 	justify-content: flex-start;
 	margin-bottom: 1em;
 }
-
-.nav{
-	display: none;
-}
+/*fin de la nav ville, luxe, bouclettes, fantaisie*/
 
 
+/*end of the header*/
+
+/*contenaire principal, contient tous les produits présents sur le site*/
 div{
-	margin-left: 3em;
-	margin-right: 3em;
+	margin:auto;
 	display: inline-block;
 	justify-content: space-between;
+}
+
+.tailles{
+	display: none;
 }
 
 .tablette{
@@ -323,7 +312,7 @@ div{
 .rose2tabl, .rose3tabl, .auberginetabl, .mauvetabl, .justemauve{
 	padding: 13px;
 }
-
+/*fin du contenaire principal qui contient les produits présents sur le site*/
 
 footer{
 	margin: 4em;
@@ -334,6 +323,6 @@ footer{
 
 }
 
-/*end of the header*/
+
 
 
