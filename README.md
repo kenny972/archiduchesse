@@ -5,7 +5,7 @@ images utilisées:
 6 icones de navigation vers d'autres pages: icones  sous forme de lien
 8 paires de chaussettes de couleurs différentes: icones sous forme de lien
 6 icones de réseaux sociaux sous forme de lien
-9 icones sous forme de lien visionnables en version Tablette et Mobile des tailles de chaussettes
+9 icones sous forme de lien visionnables en version Tablette et Mobile des tailles de chaussettes avec background-color: silver
 
 
 Reproduction du site ARCHIDUCHESSE en version responsive:
