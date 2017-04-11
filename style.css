@@ -124,16 +124,18 @@ sur le mobile (en dessous) et deuxième image sur la tablette (même ligne) et d
 	flex-wrap: wrap;
 
 }
-
+/*figure du footer*/
 .footerfig a{
 	width: 50%;
 }
+/*fin de la figure du footer*/
 
-
+/*images réseaux sociaux Twitter et Fb*/
 .cinq, .six{
 	display: none;
 	}
 
+/*images réseaux sociaux*/
 .un, .deux, .trois, .quatre{
 	max-width: 100%;
 	max-height: 100%;
@@ -143,7 +145,7 @@ sur le mobile (en dessous) et deuxième image sur la tablette (même ligne) et d
 
 
 /****************************************************************************************************
-****************************************Tablettes**************************************************
+****************************************Tablette**************************************************
 */
 
 @media (min-width: 768px){
@@ -193,8 +195,7 @@ h1, .tablette, .tailles{
 	width: 20em;
 }
 
-.rougeart{
-	background-color: blue; 
+.rougeart{ 
 	display: inline-block;
 	align-items: stretch;
 	width: 33%;
@@ -234,9 +235,9 @@ h1, .tablette, .tailles{
 
 	
 /*star of the header*/
-nav{
+header{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 .panier, .hamburger
@@ -245,25 +246,30 @@ nav{
 	display: none;
 	}
 
+header{
+	
+	height: 15em;
+}
+
 .logo
 	{
-	background-color: purple;
+	
 	display: flex;
 	justify-content: flex-start;
 	width: 0em;
 	height: 0em;
-	margin-right: 20em;
+	
 }
 
 .logo2{
-	background-color: red;
 	margin-right:120px;
 }
 
 .logotitre{
 	width: 290px;
 	height: 100px;
-	margin-right: 120px;
+	display: flex;
+
 	
 }
 
@@ -278,20 +284,51 @@ nav{
 	display: none;
 }
 
-nav{
+.navnav{
+	margin: 3em;
 	display: inline-block;
 	flex-direction: column-reverse;
-	padding-bottom: 100%;
+	margin-top: 150px
+}
+
+.grossnav{
+	height: 3em;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 1em;
+}
+
+.nav{
+	display: none;
 }
 
 
-.desktop{
-	
-	display: block;
+div{
+	margin-left: 3em;
+	margin-right: 3em;
+	display: inline-block;
+	justify-content: space-between;
+}
+
+.tablette{
+	padding:5%;
+	margin: 2%;
+}
+
+.rougetabl, .troiscouleurstabl{
+	padding: 15px;
+}
+
+.rose2tabl, .rose3tabl, .auberginetabl, .mauvetabl, .justemauve{
+	padding: 13px;
 }
 
 
+footer{
+	margin: 4em;
 
+}
 
 	
 
